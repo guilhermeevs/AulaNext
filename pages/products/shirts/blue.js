@@ -1,8 +1,11 @@
 import Link from "next/link";
-export default function BlueShirt(){
-    return (
-    <><h1>Camisa Azul</h1>
-    <Link href="/products/shirts">Voltar</Link>
-    </>
-);
-};
+import Layout from "@/components/Layout";
+
+export default function BlueShirt() {
+  return (
+    <Layout>
+      <h1>Camisa Azul</h1>
+      <Link href="/products/shirts">Voltar</Link>
+    </Layout>
+  );
+}

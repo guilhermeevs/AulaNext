@@ -1,11 +1,9 @@
-import Navbar from "../../../components/Navbar";
-import Footer from "../../../components/Footer";
 import Link from "next/link";
+import Layout from "@/components/Layout";
+
 export default function Pants() {
   return (
-    <>
-      <Navbar />
-
+    <Layout>
       <ul>
         <li>
           <Link href="/products">Voltar</Link>
@@ -17,7 +15,6 @@ export default function Pants() {
           <Link href="/products/pants/red">Calça Vermelha</Link>
         </li>
       </ul>
-      <Footer />
-    </>
+    </Layout>
   );
 }

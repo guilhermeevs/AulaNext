@@ -1,11 +1,9 @@
-import Navbar from "@/components/Navbar";
 import Link from "next/link";
-import Footer from "../../components/Footer";
+import Layout from "@/components/Layout";
 
 export default function Products() {
   return (
-    <>
-      <Navbar />
+    <Layout>
       <ul>
         <li>
           <Link href="/">Voltar</Link>
@@ -17,8 +15,6 @@ export default function Products() {
           <Link href="/products/shirts">Camisas</Link>
         </li>
       </ul>
-
-      <Footer />
-    </>
+    </Layout>
   );
 }
