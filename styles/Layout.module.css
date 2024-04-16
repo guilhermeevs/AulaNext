@@ -1,3 +1,7 @@
 .pagelayout {
     min-height: 1200px;
 }
+
+.title {
+    text-align: center;
+}
