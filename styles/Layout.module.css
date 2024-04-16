@@ -2,6 +2,16 @@
     min-height: 1200px;
 }
 
-.title {
+.title{
+    color: white;
+    background-image: url('/images/estadio.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
     text-align: center;
-}
+  }
+  .centered-image {
+    display: block;
+    margin: 0 auto;
+  }
