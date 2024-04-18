@@ -25,8 +25,6 @@ export default function Products() {
       </ul>
       <img
         src="/images/loja.jpg"
-        width="1300px"
-        height="900px"
         alt="Camisas de time"
         className={styles["centered-image"]}
       />

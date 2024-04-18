@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Layout from "@/components/Layout";
-import styles from "../../../styles/Home.module.css";
+import styles from "../../../styles/Layout.module.css";
 
 export default function Shirts() {
   return (
@@ -17,8 +17,6 @@ export default function Shirts() {
       </ul>
       <img
         src="/images/camisas.jpg"
-        width="700px"
-        height="500px"
         alt="Camisas de time"
         className={styles["centered-image"]}
       />

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Layout from "@/components/Layout";
-import styles from "../../../styles/Home.module.css"
+import styles from "../../../styles/Layout.module.css";
 
 export default function BluePants() {
   return (
@@ -9,8 +9,6 @@ export default function BluePants() {
       <Link href="/products/pants">Voltar</Link>
       <img
         src="/images/calcas.webp"
-        width="1300px"
-        height="1000px"
         alt="Calças de time"
         className={styles["centered-image"]}
       />
