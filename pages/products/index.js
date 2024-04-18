@@ -23,6 +23,13 @@ export default function Products() {
           <Link href="/">Voltar</Link>
         </li>
       </ul>
+      <img
+        src="/images/loja.jpg"
+        width="1300px"
+        height="900px"
+        alt="Camisas de time"
+        className={styles["centered-image"]}
+      />
     </Layout>
   );
 }

@@ -1,17 +1,19 @@
 .pagelayout {
-    min-height: 1200px;
+  min-height: 1200px;
 }
 
-.title{
-    color: white;
-    background-image: url('/images/estadio.webp');
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  .centered-image {
-    display: block;
-    margin: 0 auto;
-  }
+.title {
+  color: white;
+  background-image: url("/images/estadio.webp");
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.centered-image {
+  display: block;
+  margin: 0 auto;
+}

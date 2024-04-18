@@ -1,5 +1,5 @@
 import Layout from "@/components/Layout";
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/Layout.module.css";
 import Head from "next/head";
 
 export default function Home() {
@@ -13,13 +13,15 @@ export default function Home() {
       <div>
         <h1 className={styles.title}>Seja bem-vindo à nossa loja</h1>
       </div>
+      
       <img
-        src="/images/camisas.jpg"
-        width="700px"
+        src="/images/estadio.webp"
+        width="900px"
         height="500px"
         alt="Camisas de time"
         className={styles["centered-image"]}
       />
+      
     </Layout>
   );
 }

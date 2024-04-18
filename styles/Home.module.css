@@ -1,13 +1,11 @@
-.title{
+.title1{
   color: white;
   background-image: url('/images/estadio.webp');
   background-size: cover;
   background-position: center;
-  padding: 10px;
   margin-bottom: 30px;
   text-align: center;
-  margin-left: 20px;
-  margin-right: 20px;
+
 }
 
 .centered-image {

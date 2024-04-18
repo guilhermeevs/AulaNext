@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Layout from "@/components/Layout";
+import styles from "../../../styles/Home.module.css";
 
 export default function Shirts() {
   return (
@@ -14,6 +15,13 @@ export default function Shirts() {
           <Link href="/products">Voltar</Link>
         </li>
       </ul>
+      <img
+        src="/images/camisas.jpg"
+        width="700px"
+        height="500px"
+        alt="Camisas de time"
+        className={styles["centered-image"]}
+      />
     </Layout>
   );
 }
